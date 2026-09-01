@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #f0f8ff;
+    --body-bg: #ffffff;
+    --nav-bg: rgb(228, 228, 228);
+    --hover: rgb(214, 214, 214);
+    --text: #000000;
+    --font-color:#000000;
+    --title-h1: #080808;
+    --div-bg: rgb(228, 227, 227);
+    --description-color: rgb(165, 165, 165);
+}
+
+.dark {
+    --header-bg: #0f0f0f;
+    --body-bg: #0e0e0e;
+    --nav-bg: #ffb833;
+    --hover: #e4b868;
+    --text: #000000;
+    --font-color: #ffffff;
+    --title-h1: #ffffff;
+    --div-bg: #ffb833;
+    --description-color: rgb(56, 56, 56);
+}
+
+/*-------------------- -------------------*/
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1, main p , h2, .about-hosts-programme p, .programme-details div time {
+    color: var(--title-h1);
+}
+
+.intro {
+    border: 1px solid var(--nav-bg);
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 10px 15px;
+    padding: 6px 10px;
+    background-color: rgba(189, 187, 187, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    gap: 10px;
+}
+
+.icon {
+    width: 16px;
+}
+
+.intro p {
+    color: var(--font-color);
+    font-size: small;
+}
+
+.the-team-box {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hostsImage-and-programme {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.programme-host-img {
+    width: fit-content;
+    height: auto;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.notice {
+    border: 1px solid none;
+    border-radius: 10px 15px;
+    padding: 6px 8px;
+    background-color: rgb(196, 195, 195);
+    font-size: x-small;
+    margin: 0 10px -10px 0;
+    z-index: 100;
+}
+
+.programme-host {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 12vw;
+    height: 25vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+}
+
+.host-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.host-info {
+    position: relative;
+    /* border: 1px solid grey; */
+    background-color: aliceblue;
+    border-radius: 10px 15px;
+    padding: 4px 14px;
+    bottom: 40px;
+    right: 8px;
+    font-size: small;
+    opacity: 0.8;
+}
+
+.about-hosts-programme {
+    border: 1px solid grey;
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+    width: 60vw;
+    height: 20vh;
+}
+
+.programme-details {
+    /* border: 1px solid grey; */
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.programme-details div {
+    border: 1px solid grey;
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.description-icon {
+    width: 16px;
+}
