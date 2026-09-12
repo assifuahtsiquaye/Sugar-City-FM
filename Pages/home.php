@@ -61,7 +61,7 @@
 
             <div class="volume-control">
                 <img src="../Assert/cuida--volume-2-outline.svg" alt="" class="radio-icon">
-                <input type="range" name="volume" id="volume" class="volume-slider" min="0" max="100" value="40%">
+                <input type="range" name="volume" id="volume" class="volume-slider" min="0" max="100" value="40">
                 <span id="volumn-counter" class="volumn-counter">40</span>
             </div>
 
@@ -82,46 +82,37 @@
             <div class="event">
                 <div class="time-icon">
                     <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
-                    <time class="event-time">10:23 am</time>
+                    <time class="event-time" datetime="10:23">10:23 am</time>
                 </div>
                 <div class="event-details">
                     <h3>Community Outreach Program</h3>
-                    <p>Join us for a day of giving back to the community .</p>
+                    <p>Join us for a day of giving back to the community.</p>
                 </div>
-                <!-- <div class="host">
-                    <p>hjhjhj</p>
-                </div> -->
             </div>
-            
+
             <div class="event">
                 <div class="time-icon">
                     <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
-                    <time class="event-time">06:23 pm</time>
+                    <time class="event-time" datetime="18:23">06:23 pm</time>
                 </div>
                 <div class="event-details">
                     <h3>Our of Hope</h3>
                     <p>Join us for a day of giving back.</p>
                 </div>
-                <!-- <div class="host">
-                    <p>hjhjhj</p>
-                </div> -->
             </div>
-            
+
             <div class="event">
                 <div class="time-icon">
                     <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
-                    <time class="event-time"> 08:00 pm</time>
+                    <time class="event-time" datetime="20:00">08:00 pm</time>
                 </div>
                 <div class="event-details">
                     <h3>Know your country</h3>
                     <p>Join us for a day of giving back.</p>
                 </div>
-                <!-- <div class="host">
-                    <p>hjhjhj</p>
-                </div> -->
             </div>
 
-            <button href="" id="shows" class="link-button">View our shows</button>
+            <button id="shows" class="link-button">View our shows</button>
         </div>
     </section>
 
@@ -192,7 +183,7 @@
     </section>
 
     <?php include '../Footer/footer.php'; ?>
+    <script src="../Pages/home.js"></script>
     <script src="../Header/header.js"></script>
-
 </body>
 </html>

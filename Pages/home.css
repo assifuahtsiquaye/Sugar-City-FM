@@ -94,12 +94,13 @@ h2 {
 }
 
 .press-play {
+    display: none;
     cursor: pointer;
     width: 54px;
 }
 
-#pause {
-    display: none;
+.press-play.show {
+  display: inline-block;
 }
 
 .equilizer {
