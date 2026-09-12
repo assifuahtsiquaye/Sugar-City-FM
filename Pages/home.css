@@ -4,32 +4,8 @@
     box-sizing: border-box;
 }
 
-:root {
-    --header-bg: #f0f8ff;
-    --body-bg: #ffffff;
-    --nav-bg: rgb(228, 228, 228);
-    --hover: rgb(214, 214, 214);
-    --text: #000000;
-    --font-color:#000000;
-    --title-h1: #080808;
-    --div-bg: rgb(228, 227, 227);
-    --description-color: rgb(165, 165, 165);
-}
-
-.dark {
-    --header-bg: #0f0f0f;
-    --body-bg: #0e0e0e;
-    --nav-bg: #ffb833;
-    --hover: #e4b868;
-    --text: #000000;
-    --font-color: #ffffff;
-    --title-h1: #ffffff;
-    --div-bg: #ffb833;
-    --description-color: rgb(56, 56, 56);
-}
-
 /*------------main-------------*/
-main {
+.mainBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,11 +27,11 @@ main {
 }
 
 .on-air p {
-    color: red;
+    color: rgb(253, 251, 251);
     font-size: xx-small;
 }
 
-main h1 {
+.mainBox h1 {
     text-align: center;
     margin: 10px 0 0 0;
     color: var(--title-h1);
@@ -96,7 +72,7 @@ h2 {
 .sugar-city{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
 }
 
@@ -113,18 +89,17 @@ h2 {
 }
 
 .press {
-    padding: 15px 15px 15px 20px;
     border-radius: 50%;
     background-color: var(--nav-bg);
 }
 
 .press-play {
     cursor: pointer;
-    width: 24px;
+    width: 54px;
 }
 
-.press:hover {
-    background-color: var(--hover);
+#pause {
+    display: none;
 }
 
 .equilizer {
@@ -163,6 +138,69 @@ input {
 .volumn-counter{
     font-size: small;
     font-weight: bold;
+}
+
+.meet-theTeam {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.voicesBehind {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x : scroll;
+    scrollbar-width: none;
+    /* border: 1px solid red; */
+}
+
+.programme-host-box {
+    /* width: 800px; */
+    height: auto;
+    /* border: 1px solid rgb(5, 224, 34); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.notice {
+    border: 1px solid none;
+    border-radius: 10px 15px;
+    padding: 6px 8px;
+    background-color: rgb(196, 195, 195);
+    font-size: x-small;
+    margin: 0 10px -10px 0;
+    z-index: 100;
+}
+
+.programme-host {
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.host-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.host-info {
+    position: relative;
+    /* border: 1px solid grey; */
+    background-color: aliceblue;
+    border-radius: 10px 15px;
+    padding: 4px 14px;
+    bottom: 40px;
+    right: 8px;
+    font-size: small;
+    opacity: 0.8;
 }
 
 .upcoming-event {
@@ -219,6 +257,7 @@ input {
 
 .link-button  {
     border: 1px solid var(--nav-bg);
+    background-color: var(--nav-bg);
     padding: 6px 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -232,19 +271,39 @@ input {
     width: 14px;
 }
 
+.description-icon-medium {
+    width: 22px;
+    color: var(--font-color);
+}
 
 /*---------------MEDIA QUERY-----------------*/
-@media(min-width: 450px) and (max-width: 750px) {
+@media(max-width: 900px) {
     .listen-live-box {
-        width: 60%;
+        width: 70%;
     }
 
     input {
         width: 30vw;
     }
+
+    .programme-host {
+        width: 180px;
+        height: auto;
+    }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 550px) {
+    event-details p, .time-icon {
+        font-size: x-small;
+    }
+
+    .programme-host {
+        width: 170px;
+        height: auto;
+    }
+}
+
+@media(max-width: 500px) {
     .on-air{
         margin-top: 40px;
     }
@@ -254,7 +313,7 @@ input {
     }
 
     .listen-live-box {
-        width: 90%;
+        width: 80%;
     }
 
     .sugar-city h4 {
@@ -271,12 +330,12 @@ input {
     }
 
     .event-details h3 {
-        font-size: x-small;
+        font-size: medium;
         margin-bottom: 3px;
     }
 
     .event-details p, .time-icon {
-        font-size: xx-small;
+        font-size: x-small;
     }
 
     .radio-icon {
@@ -285,5 +344,10 @@ input {
 
     .respond {
         font-size: small;
+    }
+
+    .programme-host {
+        width: 160px;
+        height: auto;
     }
 }

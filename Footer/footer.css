@@ -4,27 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --header-bg: #f0f8ff;
-    --body-bg: #ffffff;
-    --nav-bg: rgb(228, 228, 228);
-    --hover: rgb(214, 214, 214);
-    --text: #000000;
-    --font-color:#000000;
-    --title-h1: #080808;
-    --bg: ;
-}
-
-.dark {
-    --header-bg: #0f0f0f;
-    --body-bg: #0e0e0e;
-    --nav-bg: #ffb833;
-    --hover: #e4b868;
-    --text: #000000;
-    --font-color: #ebe7e7;
-    --title-h1: #ffffff;
-}
-
 /**---------------- Footer -----------------*/
 .footer-line {
     width: 90%;
@@ -98,8 +77,9 @@ span {
     gap: 10px;
 }
 
-.social-media img {
+.social-media-icon {
     width: 30px;
+    color: var(--icon-change-color);
 }
 
 .quick-links {
@@ -110,7 +90,7 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     gap: 10px;
     /* border: 1px solid red; */
 }
@@ -176,8 +156,63 @@ footer a {
 
 
 /*f------------ @media query -------------*/
-/* @media  (max-width: 660px) {
-} */
+@media  (max-width: 800px) {
+    .footer-section {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-section hr {
+        width: 100%;
+    }
+
+    .about, .quick-links, .contact {
+        width: 100%;
+        font-size: clamp(1rem, 2vw, 1rem);
+    }
+    
+    .about h1, .bio,
+    .remarks {
+        font-size: clamp(1rem, 2vw, 1rem);
+    }
+
+    .response {
+        font-size: clamp(1rem, 2vw, 1rem);
+        /* border: 1px solid red; */
+    }
+
+    .frequency {
+        font-size: x-small;
+        border-radius: 8px;
+        
+    }
+    .remarks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+    .terms-policies {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .description-icon {
+        width: 18px;
+    }
+    
+    .social-media img {
+        width: 24px;
+    }
+}
 
 @media  (max-width: 450px) {
     .footer-section {
@@ -193,12 +228,12 @@ footer a {
 
     .about, .quick-links, .contact {
         width: 100%;
-        font-size: clamp(0.7rem, 1vw, 1rem);
+        font-size: clamp(0.8rem, 1vw, 1rem);
     }
     
     .about h1, .bio,
     .remarks {
-        font-size: clamp(0.7rem, 1vw, 1rem);
+        font-size: clamp(0.8rem, 1vw, 1rem);
     }
 
     .response {
