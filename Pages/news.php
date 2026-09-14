@@ -20,11 +20,11 @@
             </svg>
             <p>Get the latest News</p>
         </div>
-        <h1 class="">News</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <h2 class="">News</h2>
+        <p>Get the latest updatesm announcement and Stories from Sugar City FM. </p>
     </main>
     
-    <section class="newsSection">
+    <div class="newsSection">
         <div class="newsBox">
             <div class="newsImageBox">
                 <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="newsImage">
@@ -97,8 +97,12 @@
                 <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi minima mollitia quia debitis odit beatae doloribus possimus hic, veritatis voluptatibus omnis quibusdam. Quam aperiam voluptatibus iste aliquam facere consequuntur magni!</p>
             </div>
         </div>
-    </section>
+    </div>
 
+    <div class="newsToggle">
+        <button> <img src="../assert/line-md--arrow-small-left.png" alt=""> Back</button>
+        <button> Next <img src="../Assert/line-md--arrow-small-right.png" alt=""></button>
+    </div>
 
     <?php include '../Footer/footer.php'; ?>
     <script src="../Header/header.js"></script>

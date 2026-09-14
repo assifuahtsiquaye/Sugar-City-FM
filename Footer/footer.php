@@ -13,7 +13,7 @@
             <div class="about">
                 <h2>Sugar City FM</h2>
                 <hr>
-                <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates nesciunt facere iusto rem aliquam perferendis vitae pariatur sunt aut at, ea excepturi odit, beatae soluta dolor? In quos iure ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <p class="bio" id="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates nesciunt facere iusto rem aliquam perferendis vitae pariatur sunt aut at, ea excepturi odit, beatae soluta dolor? In quos iure ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
 
                 <div class="slogan">
                     <div class="response">...hen dze nyi</div>

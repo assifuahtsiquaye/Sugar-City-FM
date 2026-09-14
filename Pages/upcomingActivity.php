@@ -20,8 +20,8 @@
             </svg>
             <p>Our Upcoming Events</p>
         </div>
-        <h1 class="">Events</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <h2 class="">Events</h2>
+        <p>Stay in the loop with everything happening at Sugar City FM - events you won't want to miss </p>
     </main>
     
     <section></section>

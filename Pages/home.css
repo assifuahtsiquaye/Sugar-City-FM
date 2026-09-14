@@ -46,6 +46,10 @@ h2 {
 }
 
 .listen-live-box {
+    background-image: url("../Assert/SUGAR-CITY-FM-3.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode: soft-light;
     border: 1px solid none;
     background-color: var(--nav-bg);
     width: 40%;
@@ -88,6 +92,12 @@ h2 {
     color: var(--description-color);
 }
 
+.SugarCity {
+    position: absolute;
+    top: 296px;
+    left: 45.55%;
+    opacity: 0.3;
+}
 .press {
     border-radius: 50%;
     background-color: var(--nav-bg);
@@ -268,14 +278,6 @@ input {
    background-color: var(--hover);
 }
 
-.description-icon {
-    width: 14px;
-}
-
-.description-icon-medium {
-    width: 22px;
-    color: var(--font-color);
-}
 
 /*---------------MEDIA QUERY-----------------*/
 @media(max-width: 900px) {
@@ -320,8 +322,12 @@ input {
     .sugar-city h4 {
         font-size: medium;
     }
+
+    h2 {
+        font-size: large;
+    }
     
-        input {
+    input {
         width: 50vw;
     }
     
@@ -331,7 +337,7 @@ input {
     }
 
     .event-details h3 {
-        font-size: medium;
+        font-size: small;
         margin-bottom: 3px;
     }
 

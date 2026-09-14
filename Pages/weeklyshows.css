@@ -5,22 +5,27 @@
 }
 
 /*-------------------- -------------------*/
+h2 {
+    color: var(--font-color);
+}
 
 nav{
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 0 10px;
 }
 
 .days {
-    text-decoration: none;
-    color: var(--text);
-    background-color: var(--nav-bg);
+    background-color: rgba(255, 255, 255, 0.007);
+    color: var(--font-color);
     padding: 6px 10px;
     border: 1px solid var(--nav-bg);
     border-radius: 10px;
-    font-size: clamp(xx-small, small, medium );
+    font-size: clamp(xx-small, small, medium);
 }
 
 .days:focus, .days:hover {
@@ -32,8 +37,9 @@ nav{
     background: var(--nav-bg);
     border: 1px solid var(--nav-bg);
     border-radius: 10px;
-    border-left: #ffffff 5px solid;
     padding: 8px 14px;
+    background-color: var(--nav-bg);
+    color: var(--text);
 }
 
 .upcoming-event {
@@ -87,7 +93,7 @@ nav{
 }
 
 .radio-icon {
-    width: 22px;
+    width: 20px;
 }
 
 .host {
@@ -114,7 +120,26 @@ nav{
 
 
 /*------------------------@MEDIA QUERY---------------------*/
-@media (max-width: 450px){
+@media (max-width: 800px){
+    nav {
+        width: 70%;
+    }
+
+    button {
+        font-size: xx-small;
+    }
+
+    .upcoming-event{
+        width: 90%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+
+@media (max-width: 500px){
     .intro {
         margin: 20px auto;
     }
@@ -137,7 +162,7 @@ nav{
     }
 
     .upcoming-event{
-        width: 100%;
+        width: 92%;
         padding: 15px;
         display: flex;
         flex-direction: column;
@@ -151,6 +176,10 @@ nav{
 
     .time-icon  {
         width: 80px;
+    }
+
+    .radio-icon {
+        width: 12px;
     }
 
     .event-time {

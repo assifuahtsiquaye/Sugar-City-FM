@@ -32,7 +32,7 @@
                     </svg>
 
                     <div>
-                        <!-- <img src="../Assert/SUGAR CITY FM.png" alt="" srcset="" style="width: 120px;"> -->
+                        <!-- <img src="../Assert/SUGAR CITY FM.png" alt="" srcset="" style="width: 120px;" class="SugarCity"> -->
                         <h4>Sugar City FM</h4>
                         <p class="respond">hen dze nyi</p>
                     </div>
@@ -43,7 +43,6 @@
             </div>
 
             <div class="press">
-                <!-- <img src="../Assert/SUGAR CITY FM.png" alt="" srcset="" style="width: 120px;"> -->
                 <img src="../Assert/fa-solid--play-circle.svg" alt="" class="press-play" id="play">
                 <img src="../Assert/bi--pause-circle-fill.svg" alt="" class="press-play" id="pause">
             </div>
@@ -138,11 +137,11 @@
                 <div class="host-info">Elder Emmanuel Acquah</div>
             </div>
             <div class="programme-host-box">
-                <div class="notice">Loremm Yiuu Lorem</div>
+                <div class="notice">Morning Devotion</div>
                 <div class="programme-host">
                     <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="host-image">
                 </div>
-                <div class="host-info">Elder Emmanuel Acquah</div>
+                <div class="host-info">Nana Kwabena Awortwe</div>
             </div>
             <div class="programme-host-box">
                 <div class="notice">Loremm Yiuu Lorem</div>

@@ -20,8 +20,8 @@
             </svg>
             <p>Our Programme Guideline</p>
         </div>
-        <h1>Weekly Shows</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <h2>Weekly Shows</h2>
+        <p>Explore our weekly lineup - find out what's playing, when and who's hosting through out the week</p>
     </main>
 
     <nav>
@@ -37,7 +37,7 @@
     <div class="upcoming-event active" id="monday-event" data-day="mon">
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">06:23 pm</time>
                     <time class="event-time">06:23 pm</time>
                 </div>
@@ -56,7 +56,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -75,7 +75,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -94,7 +94,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -113,7 +113,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -134,7 +134,7 @@
     <div class="upcoming-event" id="tuesday-event" data-day="tue">
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">06:23 pm</time>
                     <time class="event-time">06:23 pm</time>
                 </div>
@@ -153,7 +153,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -172,7 +172,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -191,7 +191,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -212,7 +212,7 @@
     <div class="upcoming-event" id="wednesday-event" data-day="wed">
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">06:23 pm</time>
                     <time class="event-time">06:23 pm</time>
                 </div>
@@ -231,7 +231,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -250,7 +250,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -269,7 +269,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -290,7 +290,7 @@
     <div class="upcoming-event" id="thursday-event" data-day="thu">
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">06:23 pm</time>
                     <time class="event-time">06:23 pm</time>
                 </div>
@@ -309,7 +309,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -328,7 +328,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -347,7 +347,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -366,7 +366,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -387,7 +387,7 @@
     <div class="upcoming-event" id="friday-event" data-day="fri">
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">06:23 pm</time>
                     <time class="event-time">06:23 pm</time>
                 </div>
@@ -406,7 +406,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -425,7 +425,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>
@@ -444,7 +444,7 @@
         
         <div class="event">
                 <div class="time-icon">
-                    <img src="../Assert/famicons--time-outline.png" alt="" class="radio-icon">
+                    <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
                     <time class="event-time">08:23 pm</time>
                     <time class="event-time">09:23 pm</time>
                 </div>

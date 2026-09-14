@@ -74,11 +74,11 @@ span {
 .social-media {
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 15px;
 }
 
 .social-media-icon {
-    width: 30px;
+    width: 25px;
     color: var(--icon-change-color);
 }
 
@@ -111,10 +111,6 @@ footer a {
     align-items: center;
     gap: 5px;
     margin: 10px 0 20px 0;
-}
-
-.description-icon {
-    width: 16px;
 }
 
 .contact-info {

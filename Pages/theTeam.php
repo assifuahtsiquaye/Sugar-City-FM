@@ -20,8 +20,8 @@
             </svg>
             <p>Meet the Voices behind the radio</p>
         </div>
-        <h1 class="">Our Team</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <h2 class="">Our Team</h2>
+        <p>The voices and faces behind Sugar City FM - get to know your favourite shows' host.. </p>
     </main>
 
     <section class="the-team-box">
@@ -30,34 +30,93 @@
                 <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="host-image">
                 <div class="hosts-programme-info">
                     <div class="programme-details">
+                        <h3 class="hostName">Nana Kwabena Awortwe</h3>
+                        <div class="programme-time">
+                            <img src="../Assert/akar-icons--microphone.svg" alt="" class="radio-icon">
+                            <p>Morning Devotion</p>
+                        </div>
+                    </div>
+                    <p class="about-programme">Begin your day activity with Jesus. Tune in and Lets begin our day with Jesus together.</p>
+                    <div class="programme-details">
+                        <div class="programme-time">
+                            <img src="../Assert/lets-icons--date-today.svg" alt="" class="radio-icon">
+                            <p>Monday | Wednesday</p>
+                        </div>
+                        <div class="programme-time">
+                            <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
+                            <p>5:00am - 6:00a-m</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="programmeHostBox">
+                <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="host-image">
+                <div class="hosts-programme-info">
+                    <div class="programme-details">
                         <h3 class="hostName">Elder Emmanuel Acquah</h3>
                         <div class="programme-time">
-                            <svg viewBox="0 0 24 24" class="description-icon">
-                                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                    <rect width="8" height="13" x="8" y="2" rx="4" />
-                                    <path d="M18 16.292A7.98 7.98 0 0 1 12 19a7.98 7.98 0 0 1-6-2.708M12 19v3m-2 0h4" />
-                                </g>
-                            </svg>
-                            <p class="time">Time with the Lord</p>
+                            <img src="../Assert/akar-icons--microphone.svg" alt="" class="radio-icon">
+                            <p>Time with the Lord</p>
                         </div>
                     </div>
                     <p class="about-programme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, voluptates. Aspernatur tempora odio non voluptatem, nihil maiores culpa animi praesentium dolorum iste illum sunt </p>
                     <div class="programme-details">
                         <div class="programme-time">
-                            <svg width="96" height="auto" viewBox="0 0 24 24" class="description-icon">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path fill="currentColor" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8s8 3.589 8 8s-3.589 8-8 8" />
-                                <path fill="currentColor" d="M13 7h-2v6h6v-2h-4z" />
-                            </svg>
-                            <p class="time">Every Monday</p>
+                            <img src="../Assert/lets-icons--date-today.svg" alt="" class="radio-icon">
+                            <p>Every Monday</p>
                         </div>
                         <div class="programme-time">
-                            <svg width="96" height="auto" viewBox="0 0 24 24" class="description-icon">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path fill="currentColor" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10s10-4.486 10-10S17.514 2 12 2m0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8s8 3.589 8 8s-3.589 8-8 8" />
-                                <path fill="currentColor" d="M13 7h-2v6h6v-2h-4z" />
-                            </svg>
-                            <p class="time">2:00 PM</p>
+                            <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
+                            <p>2:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="programmeHostBox">
+                <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="host-image">
+                <div class="hosts-programme-info">
+                    <div class="programme-details">
+                        <h3 class="hostName">Elder Emmanuel Acquah</h3>
+                        <div class="programme-time">
+                            <img src="../Assert/akar-icons--microphone.svg" alt="" class="radio-icon">
+                            <p>Time with the Lord</p>
+                        </div>
+                    </div>
+                    <p class="about-programme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, voluptates. Aspernatur tempora odio non voluptatem, nihil maiores culpa animi praesentium dolorum iste illum sunt </p>
+                    <div class="programme-details">
+                        <div class="programme-time">
+                            <img src="../Assert/lets-icons--date-today.svg" alt="" class="radio-icon">
+                            <p>Every Monday</p>
+                        </div>
+                        <div class="programme-time">
+                            <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
+                            <p>2:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="programmeHostBox">
+                <img src="../Assert/vlcsnap-2025-10-22-06h38m36s790.png" alt="" class="host-image">
+                <div class="hosts-programme-info">
+                    <div class="programme-details">
+                        <h3 class="hostName">Elder Emmanuel Acquah</h3>
+                        <div class="programme-time">
+                            <img src="../Assert/akar-icons--microphone.svg" alt="" class="radio-icon">
+                            <p>Time with the Lord</p>
+                        </div>
+                    </div>
+                    <p class="about-programme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, voluptates. Aspernatur tempora odio non voluptatem, nihil maiores culpa animi praesentium dolorum iste illum sunt </p>
+                    <div class="programme-details">
+                        <div class="programme-time">
+                            <img src="../Assert/lets-icons--date-today.svg" alt="" class="radio-icon">
+                            <p>Every Monday</p>
+                        </div>
+                        <div class="programme-time">
+                            <img src="../Assert/bx--time.svg" alt="" class="radio-icon">
+                            <p>2:00 PM</p>
                         </div>
                     </div>
                 </div>
